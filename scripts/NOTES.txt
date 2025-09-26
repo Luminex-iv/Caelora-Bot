@@ -1,0 +1,14 @@
+Scripts folder notes
+
+Purpose
+- Store utility and deployment scripts used by maintainers and CI.
+
+What to put here
+- `deploy/` - helper scripts to build releases.
+- `db_migrate.sh` - simple migration runner for local/testing.
+
+Ideas
+- Keep `upload.sh` at repo root as the main deploy helper; scripts here can be invoked by it.
+
+NOTES / extras
+- List script responsibilities and required environment variables for each script.

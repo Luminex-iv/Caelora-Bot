@@ -1,0 +1,16 @@
+Testing notes
+
+Purpose
+- Hold test plans, examples, and conventions for writing unit and integration tests.
+
+What to put here
+- `test_conventions.md` - naming and directory structure conventions.
+- `ci_integration.md` - how tests run in CI and how to reproduce locally.
+
+Ideas
+- Add sample tests: `tests/test_smoke.py`, `tests/cogs/test_example.py`.
+- Use fixtures for common objects (fake bot, config overrides).
+
+NOTES / extras
+- Track flaky tests to stabilize.
+- Document any test data generation scripts.

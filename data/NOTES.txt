@@ -1,0 +1,14 @@
+Data folder notes
+
+Purpose
+- Store runtime persistent or semi-persistent artifacts such as small JSON databases, caches, or dumps.
+
+What to put here
+- `users.json` - small datasets for prototyping (avoid for production scale).
+- `backup/` - automated backups snapshots (if used).
+
+Ideas
+- If data becomes large, consider migrating to an external DB rather than committing here.
+
+NOTES / extras
+- Document data retention and cleanup policies.
