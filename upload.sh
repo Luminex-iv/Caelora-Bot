@@ -1,6 +1,6 @@
 #!/bin/bash 
-echo "Pulling code from main branch..."
-git pull origin main
+echo "Pulling code from master branch..."
+git pull origin master
 
 echo "Staging changes..."
 git add .
@@ -10,6 +10,6 @@ read commitMessage
 git commit -m "$commitMessage"
 
 echo "Pushing to GitHub..."
-git push origin main
+git push origin master
 
 echo "Code pushed successfully."
